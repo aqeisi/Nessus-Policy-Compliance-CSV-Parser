@@ -10,6 +10,6 @@ This simple python script is here to make your life a thousand times easier when
 
 ## Usage
 
-```python3 nessus-parse.py -f <full path to CSV file>```
+```python3 parse-nessus.py -f <full path to CSV file>```
 
 This will create a word document called "demo.docx" which will hold all the information you need.
