@@ -64,7 +64,7 @@ def main(args):
 
 			else:
 				cols5[1].text = cols5[1].text + row['Host'] + ' [-] '
-	document.save('/home/troll/Desktop/demo.docx')
+	document.save('./demo.docx')
 		
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Parse Nessus CIS benchmark results")
